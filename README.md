@@ -21,3 +21,15 @@ Quick Start
 ```bash
   git clone git@github.com:pepellou/jasmineE2E.git
 ```
+
+Full documentation
+------------------
+
+The full documentation for this project is located in doc/src/ in markdown format. You can render it to several formats by using Pandoc ([http://johnmacfarlane.net/pandoc/installing.html](Installing Pandoc)).
+
+We prepared a bash script at doc/render.bash that allows you to render the full documentation to doc/publish/ in the following formats: epub, html, pdf.
+
+If you have any problems with missing fonts when rendering the documentation in pdf, try to install latex fonts:
+```bash
+sudo apt-get install texlive-latex-recommended
+```
